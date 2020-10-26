@@ -1,6 +1,6 @@
 * {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
@@ -34,4 +34,13 @@ body {
 
 .instagram-phone img {
     height: 50rem;
+}
+
+.instagram-continue {
+    display: flex;
+    align-items: center; /* horizontal */
+    justify-content: space-around; /* vertical */
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
 }
